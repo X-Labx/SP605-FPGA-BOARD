@@ -1,0 +1,18 @@
+PROMGEN: Xilinx Prom Generator M.53d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o SP605_SPI_BRD_v2_0 -s 8192 -u 0000 ../SP605_BRD_Src/DSP48A/sp605_brd.bit -u 200000 ../SP605_BRD_src/Logic/sp605_brd.bit -spi 
+
+PROM SP605_SPI_BRD_v2_0.prm map: Mon May 24 13:34:02 2010
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          8192K
+PROM start    0000:0000
+PROM end      007f:ffff
+PROM checksum 536578e7
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0016:a673     May 24 13:13:16 2010 ../SP605_BRD_Src/DSP48A/sp605_brd.bit
+    0020:0000    0036:a673     May 24 13:01:07 2010 ../SP605_BRD_src/Logic/sp605_brd.bit
